@@ -348,7 +348,7 @@ textarea.form-control {
   padding-right: 0;
 }
 .aronix-nav .navbar .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #5b5b98;
   text-transform: capitalize;
@@ -8538,4 +8538,16 @@ blockquote::after,
 }
 .form-content .form-footer p a {
   color: #00f;
+}
+
+/* custom styles */
+
+.main-logo {
+  height:70px;
+  width:80px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-size: 3em;
 }
