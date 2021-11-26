@@ -68,7 +68,7 @@ h6 {
   z-index: 1;
   color: #fff;
   text-transform: uppercase;
-  background-color: #00f;
+  background-color: #231F20;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -85,7 +85,7 @@ h6 {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #fa7070;
+  background-color: #F7941D;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -114,7 +114,7 @@ h6 {
   margin-bottom: 55px;
 }
 .section-title .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -1620,7 +1620,7 @@ textarea.form-control {
   margin-top: -20px;
 }
 .banner-content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1765,7 +1765,7 @@ textarea.form-control {
   margin-left: auto;
 }
 .hero-banner-content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1857,7 +1857,7 @@ textarea.form-control {
   margin-top: 85px;
 }
 .hero-main-banner-content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -2396,7 +2396,7 @@ textarea.form-control {
   box-shadow: 0 5px 28.5px 1.5px rgba(0, 0, 255, 0.2);
 }
 .single-featured-box .default-btn span {
-  background: #00f;
+  background: #F7941D;
 }
 .single-featured-box:hover {
   -webkit-transform: translateY(-10px);
@@ -2466,7 +2466,7 @@ textarea.form-control {
   padding-left: 30px;
 }
 .about-content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -2519,7 +2519,7 @@ textarea.form-control {
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-color: #00f;
+  background-color: #F7941D;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2527,7 +2527,7 @@ textarea.form-control {
 .about-content .features-list li span i {
   font-size: 12px;
   color: #fff;
-  background-color: #00f;
+  background-color: #231F20;
   width: 23px;
   height: 23px;
   line-height: 23px;
@@ -2548,7 +2548,7 @@ textarea.form-control {
   width: 100%;
 }
 .about-content .features-list li span:hover i {
-  background-color: #fa7070;
+  background-color: #6166B3;
 }
 .about-inner-area {
   margin-top: 100px;
@@ -2931,7 +2931,7 @@ textarea.form-control {
   padding-right: 30px;
 }
 .why-choose-content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -2989,7 +2989,7 @@ textarea.form-control {
   padding-right: 30px;
 }
 .overview-box .overview-content .content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -3547,7 +3547,7 @@ textarea.form-control {
   padding-right: 15px;
 }
 .features-list-tab .features-overview .overview-content .content .sub-title {
-  color: #00f;
+  color: #F7941D;
   display: block;
   text-transform: capitalize;
   margin-bottom: 8px;
@@ -8550,4 +8550,22 @@ blockquote::after,
 .nav-item {
   margin-right: 20px;
   font-size: 3em;
+}
+
+.about-btn{
+  text-align: center;
+  margin:auto;
+  display: block;
+  width:18%;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px){
+  .about-btn {
+    width:38%;
+  }
+  .main-logo {
+    height:50px;
+    width:60px;
+  }
 }
