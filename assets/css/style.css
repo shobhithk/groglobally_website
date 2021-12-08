@@ -1544,7 +1544,7 @@ textarea.form-control {
 }
 .main-banner-content h1 {
   line-height: 1.2;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   font-size: 20px;
 }
 .main-banner-content p {
@@ -3186,6 +3186,7 @@ textarea.form-control {
   position: relative;
   margin-bottom: 30px;
   overflow: hidden;
+ 
 }
 .single-projects-box .projects-content {
   position: absolute;
@@ -3459,6 +3460,7 @@ textarea.form-control {
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
@@ -3492,7 +3494,7 @@ textarea.form-control {
   font-weight: 400;
   font-size: 40px;
 }
-.features-list-tab .tabs li a.bg-fa7070 i {
+.features-list-tab .tabs li a.features-list-tab i {
   color: #fa7070;
 }
 .features-list-tab .tabs li a.bg-00aeff i {
@@ -4040,6 +4042,7 @@ textarea.form-control {
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  
 }
 .single-pricing-box .pricing-header {
   position: relative;
@@ -8559,6 +8562,9 @@ blockquote::after,
   width:18%;
   margin-top: 40px;
 }
+.logo2 {
+  margin-top: 80px;
+}
 
 @media only screen and (max-width: 767px){
   .about-btn {
@@ -8567,5 +8573,8 @@ blockquote::after,
   .main-logo {
     height:50px;
     width:60px;
+  }
+  .logo2 {
+    display: none;
   }
 }
